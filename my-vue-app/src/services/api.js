@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // กำหนด Base URL ของ API
 const apiClient = axios.create({
-  baseURL: 'https://raw.githubusercontent.com/Apisit250aps/express-test-api/main',
+  baseURL: 'webdatatest-ey2k-95ddmh1o2-prinyaruengkams-projects.vercel.app',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -11,7 +11,7 @@ const apiClient = axios.create({
 
 // สำหรับ API ที่ต้องใช้ POST, PUT, DELETE
 const expressApiClient = axios.create({
-  baseURL: 'https://your-deployed-express-api-url.com', // เปลี่ยนเป็น URL ของ API ที่ deploy แล้ว
+  baseURL: 'webdatatest-ey2k-95ddmh1o2-prinyaruengkams-projects.vercel.app', // เปลี่ยนเป็น URL ของ API ที่ deploy แล้ว
   headers: {
     'Content-Type': 'application/json',
   },
